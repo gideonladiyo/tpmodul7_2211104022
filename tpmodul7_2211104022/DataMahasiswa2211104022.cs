@@ -30,7 +30,6 @@ namespace tpmodul7_2211104022
         public static void ReadJSON()
         {
             string pathFile = Path.Combine(Directory.GetCurrentDirectory(), "solution", "tp7_1_2211104022.json");
-            Console.WriteLine($"Mencari file {pathFile}");
             if (File.Exists(pathFile))
             {
                 string jsonData = File.ReadAllText(pathFile);
